@@ -40,5 +40,5 @@ def unflatten(flat_array):
     flatlist = flat_array[:]
     for i, x in enumerate(flatlist):
         if x > 2:
-            flatlist[i], aflatlistrr[i+1:i+x] = flatlist[i:i+x], []
+            flatlist[i], flatlist[i+1:i+x] = flatlist[i:i+x], []
     return flatlist
