@@ -13,9 +13,7 @@ sum_diagonals( [
 """
 #Solution
 
+import numpy as np
+
 def sum_diagonals(matrix):
-    x = 0
-    y = list(range(0, len(matrix)))
-    for i, j in list(zip(y, y[::-1])):
-        x += matrix[i][i] + matrix [j][i]
-    return x
+    return np.trace(matrix) + np.trace(matrix[::-1])
