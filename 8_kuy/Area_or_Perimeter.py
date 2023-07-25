@@ -12,7 +12,7 @@ is a rectangle.
 
 #Solution
 def area_or_perimeter(l , w):
-    if l == True:
-        return l * 4
+    if l == w:
+        return l * w
     else:
         return (l+w) * 2
