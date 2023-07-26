@@ -12,7 +12,14 @@ Some cases:
 #Solution
 def multiple_of_index(arr):
     result = []
-    for index in range (1, len(arr)):
-        if arr[index] % index == 0:
-            result.append(arr[index])
+    for i in range(len(arr)):
+
+        if arr[i] == 0:
+            result.append(arr[i])
+            continue
+
+        if i == 0: continue
+
+        if (arr[i] % i) == 0:
+            result.append(arr[i])
     return result
