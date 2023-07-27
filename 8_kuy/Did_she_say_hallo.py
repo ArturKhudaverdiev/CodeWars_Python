@@ -20,7 +20,7 @@ function should be case insensitive to pass the tests"""
 #Solution
 def validate_hello(greetings):
     g = ['hello', 'ciao', 'salut', 'hallo', 'hola', 'ahoj', 'czesc']
-    for s in g:
-        if s in greetings.lower():
+    for x in g:
+        if x in greetings.lower():
             return True
     return False
