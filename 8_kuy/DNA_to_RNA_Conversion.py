@@ -13,11 +13,4 @@ The input string can be of arbitrary length - in particular, it may be empty. Al
 
 #Solution
 def dna_to_rna(dna):
-    return ''.join(list(map(tTou, dna)))
-
-
-def tTou(letter):
-    if letter == 'T':
-        return 'U'
-    else:
-        return letter
+    return dna.replace("T", "U")
