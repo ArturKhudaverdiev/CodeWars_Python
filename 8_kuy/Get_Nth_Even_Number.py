@@ -11,7 +11,4 @@ Example(Input --> Output)
 
 #Solution
 def nth_even(n):
-    even = 0
-    for i in range(n-1):
-        even += 2
-    return even
+    return 2 * n - 2
