@@ -4,4 +4,4 @@ Complete the square sum function so that it squares each number passed into it a
 
 #Solution
 def square_sum(numbers):
-    return sum([i * i for i in numbers])
+    return sum (i * i for i in numbers)
