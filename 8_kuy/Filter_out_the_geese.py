@@ -17,4 +17,4 @@ with the 'geese' removed. Note that all of the strings will be in the same case 
 #Solution
 geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]
 def goose_filter(birds):
-    return [bird for bird in birds if bird not in geese]
+    return [b for b in birds if b not in geese]
