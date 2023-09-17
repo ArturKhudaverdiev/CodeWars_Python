@@ -9,4 +9,4 @@ You can assume that all values are integers. Do not mutate the input array/list.
 
 #Solution
 def invert(lst):
-   return [i*-1 for i in lst]
+   return [n * -1 for n in lst] if len(lst) > 0 else []
